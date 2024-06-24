@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Public+Sans:ital,wght@0,500;1,500&display=swap');/*importação de fontes no google fonts*/
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.navegar{
+    height: 80px;
+    display: flex;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+    flex: 20%;
+    color: 	#363636;
+}
+
+.logo :hover{
+    color: #87ceeb;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex: 70%;
+    padding: 20px;
+    margin-right: 30px;
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #363636;
+    padding: 10px 40px;
+}
+
+.menu a:hover{
+    color: #87ceeb;
+    border-top: solid 2px;
+}
+
+#caixa{
+    background-color: #FFB6C1;
+    border-radius: 8px;
+    width: 200px;
+    margin-left: 5%;
+}
+
+#caixa{
+    color: #800000;
+}
+
+#caixa:hover{
+    border: none;
+    color: #363636;
+    background-color: #87ceeb;
+}
+
+.header{
+    height: 600px; 
+    display: flex;
+    flex-flow: nowrap;
+    margin-top: 50px;
+}
+
+.headright{
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+    margin-left: 6%;
+    align-items: center;
+    justify-content: center;
+    color: #363636;
+}
+
+.traga{
+    font-size: 50px;
+    color: #191970;
+    font-family: "Lobster", sans-serif;
+}
+
+h2{
+    margin: 9px;
+}
+
+.img-headleft{
+    flex: 40%;
+    margin-right: 4%;
+}
+
+.img-headright{
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.img-headleft > img{
+    max-width: 90%;
+    box-shadow: 0,0,0,5;    
+    margin-top: 20%;
+ }
+
+
+.headright > div >a{
+    text-decoration: none;
+    background-color: #FFB6C1;
+    color: #191970;
+    border-radius: 8px;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headright > div >a:hover{
+    border: none;
+    color: #363636;
+    background-color: #87ceeb;
+}
+
+
+.sec h2{
+    display: flex;
+    height: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+    color: #000080;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    padding: 50px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border: solid 1px #000080;
+    border-radius: 30px;
+}
+
+.secoes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.secoes > div >img{
+    width: 100%;
+}
+
+.card{
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+    align-items: center;
+    border: solid 3px  #FFB6C1;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card >img{
+    height: 250px;
+}
+
+.card > p{
+    color: #363636;
+}
+
+.card:hover{
+    background-color: 	#87ceeb;
+}
+
+.card .alt{
+    display: none;
+}
+
+.card:hover .ant{
+    display: none;
+}
+
+.card:hover .alt{
+    display: block;
+}
+
+.card:hover .alt>h2{
+    color: #363636;
+}
+
+.rod{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    height: 300px;
+    background: linear-gradient(180deg,#191970,#060b46);
+    text-align: center;
+    justify-content: end;
+    color: 	white;
+    font-size: 20;
+    padding: 10px;
+    border-top: solid 3px #FF00FF;
+    font-family: "Public Sans", sans-serif;
+}
+
+footer > a >img{
+    width: 120px;
+    position: fixed;
+    bottom: 1px;
+    right: 5px;
+}
+
+.container-sobre{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;  
+    margin-top: 20px; 
+    padding: 50px;
+}
+
+.sobre-img{
+    width: 200px;
+}
+
+.container-sobre h1{
+    color:#111127;
+}
+
+.container-servicos{
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.art-ser li{
+    padding: 10px;
+    color:#2e0223;
+}
+
+.container-con{
+    padding: 70px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container-con a{
+    text-decoration: none;
+}

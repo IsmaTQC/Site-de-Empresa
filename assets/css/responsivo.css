@@ -1,0 +1,14 @@
+/*consultar tamanho de telas*/
+@media screen and (max-width:1005px){
+    .menu{
+       display: none;
+    }
+    .headright{
+        display: flex;
+    }
+    .rod >a >img{
+        display: none;
+    }
+ 
+    
+}
